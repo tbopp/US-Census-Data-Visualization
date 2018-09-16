@@ -11,3 +11,5 @@ A user can search for any American city in the Census data will receive four sle
 On our homepage we will display the above graphical categorical for the United States overall so before the user searches for a particular city they can see what kind of results will be displayed for their search.
 
 Nice to Haves:
+
+
