@@ -13,12 +13,12 @@ module.exports = function (app) {
       // 2. Split the search variable into an array of two separate strings (city and the state) at the wildcard character '&'.
       searchParams = searchParams.split("&");
       // 3. Re-define the search variable as the two strings connected with a ", " in between city and state strings in order to pass the exact format required for the database search.
-      searchParams = searchParams[0] + ", " + searchParams[1];
+      searchParams = searchParams[0] + "," + searchParams[1];
 
       // Pass the search params to sequelize to perform the search.
       Census.findOne({
         where: {
-          Areaname: searchParams
+          Reduced_Name: searchParams
         }
       }).then(function (results) {
         return res.json(results);
