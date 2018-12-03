@@ -1,3 +1,5 @@
+![alt text](https://github.com/tbopp/US-Census-Data-Visualization/blob/master/app/public/assets/images/Preview.gif?raw=true "US Census Data Visualization")
+
 # US-Census-Data-Visualization
 This web app allows users to search for any American city and view a data visualization of that city's demographics based on statistics from the United States Census Bureau.
 
